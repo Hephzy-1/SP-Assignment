@@ -1,0 +1,111 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  background: rgba(222, 228, 231, 0.788);
+  margin: 0;
+}
+
+.fb-container {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  padding: 135px 0;
+  position: relative;
+  width: 980px;
+}
+
+.image-container img {
+  width: 315px;
+  height: 105px;
+  margin-top: 40px;
+}
+
+.image-container h2 {
+  margin-top: 0;
+  margin-left: 30px;
+  font-weight: 100;
+  font-size: 27px;
+  line-height: 32px;
+  width: 500px;
+}
+
+.sign-in {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin-left: 50px;
+}
+
+.form-box {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: rgba(33, 36, 37, 0.3) 0px 8px 24px;
+}
+
+form {
+  margin: 10px 15px;
+}
+
+input {
+  font-size: 17px;
+  width: 365px;
+  height: 50px;
+  border-radius: 9px;
+  margin-top: 10px;
+  box-sizing: border-box;
+  padding: 10px 20px;  
+  border: 1px solid #dadde1;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  line-height: 48px;
+  padding: 0 16px;
+  width: 365px;
+  color: white;
+}
+
+.login-button {
+  background-color: #0967e2;
+}
+
+#forgotten {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 15px;
+  color: #1877f2;
+  margin-top: 10px;
+}
+
+.space {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #dadde1;
+  margin: 20px 16px;
+  text-align: center;
+}
+
+.signup {
+  background-color: rgb(7, 185, 7);
+  border-radius: 10px;
+  width: 233px;
+  margin-left: 75px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 15px;
+  margin: 20px;
+}
+
+p a {
+  color: black;
+}
